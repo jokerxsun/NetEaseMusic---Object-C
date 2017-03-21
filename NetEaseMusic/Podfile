@@ -1,0 +1,14 @@
+target 'NetEaseMusic' do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'SDWebImage', '~> 4.0.0'
+pod 'YYModel', '~> 1.0.4'
+pod 'CYLTabBarController', '~> 1.10.0'
+pod 'Reachability', '~> 3.2'
+pod 'SDAutoLayout', '~> 2.1.7'
+pod 'YYCache', '~> 1.0.4'
+pod 'IQKeyboardManager', '~> 4.0.8'
+pod 'KSToastView', '~> 0.5.7'
+pod 'SVProgressHUD', '~> 2.1.2'
+pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'FMDB', '~> 2.6.2'
+end
