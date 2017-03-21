@@ -1,0 +1,48 @@
+//
+//  SXPrefixHeader.pch
+//  chuangyezhinan
+//
+//  Created by sunxu on 2017/3/17.
+//  Copyright © 2017年 Sun Xu. All rights reserved.
+//
+
+#define SXPrefixHeader_pch
+
+#ifdef __OBJC__
+// 控制台日志输出
+#ifdef DEBUG
+// debug 模式下输出
+#define SXLog(...) NSLog( __VA_ARGS__)
+#define SXLogFunc() NSLog(@"\n--------------------%s-----------------", __func__)
+#else
+#define SXLog(...)
+#define SXLogFunc()
+#define NSLog(...)
+#endif
+
+// 颜色
+#define SXRGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define SXRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define SXHEXCOLOR(hexValue) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0f]
+#define SXBASECOLOR SXHEXCOLOR(0x4da85c)
+
+// 60ac73
+#define SXBASECOLORA(a) SXRGBA(77,165,92,a)
+// 屏幕宽高
+#define SX_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width<[UIScreen mainScreen].bounds.size.height?[UIScreen mainScreen].bounds.size.width:[UIScreen mainScreen].bounds.size.height)
+#define SX_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height>[UIScreen mainScreen].bounds.size.width?[UIScreen mainScreen].bounds.size.height:[UIScreen mainScreen].bounds.size.width)
+// 屏幕方向
+#define SX_STATUSBARORIENTATION ([[UIApplication sharedApplication] statusBarOrientation])
+// 数据库路径
+#define SX_DB_PATH  [NSString stringWithFormat:@"%@/Documents/ChuangYeZhiNan.db", NSHomeDirectory()]
+// 偏好设置对象
+#define SX_USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+
+#define SX_IS_PAD [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad
+
+#define IS_PRODUCTION_ENVIROMENT [SXTool shareTool].is_production_enviroment
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+#endif /* SXPrefixHeader_pch */

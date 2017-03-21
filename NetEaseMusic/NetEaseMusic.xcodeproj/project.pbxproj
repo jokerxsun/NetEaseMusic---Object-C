@@ -8,9 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A8386E8D7731F5AF30CD77E /* libPods-NetEaseMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808285866F3739EAF1577FA /* libPods-NetEaseMusic.a */; };
+		6E4F85821E81388900471C32 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F855C1E81388900471C32 /* BaseController.m */; };
+		6E4F85831E81388900471C32 /* BaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F855F1E81388900471C32 /* BaseDataController.m */; };
+		6E4F85841E81388900471C32 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85621E81388900471C32 /* BaseModel.m */; };
+		6E4F85851E81388900471C32 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85651E81388900471C32 /* BaseView.m */; };
+		6E4F85861E81388900471C32 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85681E81388900471C32 /* BaseViewModel.m */; };
+		6E4F85871E81388900471C32 /* SXApiConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F856C1E81388900471C32 /* SXApiConst.m */; };
+		6E4F85881E81388900471C32 /* SXAppConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F856F1E81388900471C32 /* SXAppConst.m */; };
+		6E4F85891E81388900471C32 /* SXDBConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85721E81388900471C32 /* SXDBConst.m */; };
+		6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85751E81388900471C32 /* SXUserConst.m */; };
+		6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */; };
+		6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85811E81388900471C32 /* SXRootControllerTool.m */; };
 		6EEF80E81E81355900F127CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80E71E81355900F127CB /* main.m */; };
 		6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80EA1E81355900F127CB /* AppDelegate.m */; };
-		6EEF80EE1E81355900F127CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80ED1E81355900F127CB /* ViewController.m */; };
 		6EEF80F11E81355900F127CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80EF1E81355900F127CB /* Main.storyboard */; };
 		6EEF80F31E81355900F127CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80F21E81355900F127CB /* Assets.xcassets */; };
 		6EEF80F61E81355900F127CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80F41E81355900F127CB /* LaunchScreen.storyboard */; };
@@ -19,12 +29,33 @@
 /* Begin PBXFileReference section */
 		4808285866F3739EAF1577FA /* libPods-NetEaseMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetEaseMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561A8849B5A875931F25F35D /* Pods-NetEaseMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseMusic/Pods-NetEaseMusic.release.xcconfig"; sourceTree = "<group>"; };
+		6E4F855B1E81388900471C32 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		6E4F855C1E81388900471C32 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		6E4F855E1E81388900471C32 /* BaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataController.h; sourceTree = "<group>"; };
+		6E4F855F1E81388900471C32 /* BaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDataController.m; sourceTree = "<group>"; };
+		6E4F85611E81388900471C32 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		6E4F85621E81388900471C32 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		6E4F85641E81388900471C32 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		6E4F85651E81388900471C32 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		6E4F85671E81388900471C32 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		6E4F85681E81388900471C32 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		6E4F856B1E81388900471C32 /* SXApiConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXApiConst.h; sourceTree = "<group>"; };
+		6E4F856C1E81388900471C32 /* SXApiConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXApiConst.m; sourceTree = "<group>"; };
+		6E4F856E1E81388900471C32 /* SXAppConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAppConst.h; sourceTree = "<group>"; };
+		6E4F856F1E81388900471C32 /* SXAppConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAppConst.m; sourceTree = "<group>"; };
+		6E4F85711E81388900471C32 /* SXDBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXDBConst.h; sourceTree = "<group>"; };
+		6E4F85721E81388900471C32 /* SXDBConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXDBConst.m; sourceTree = "<group>"; };
+		6E4F85741E81388900471C32 /* SXUserConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXUserConst.h; sourceTree = "<group>"; };
+		6E4F85751E81388900471C32 /* SXUserConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXUserConst.m; sourceTree = "<group>"; };
+		6E4F85781E81388900471C32 /* SXLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLaunchImageAdView.h; sourceTree = "<group>"; };
+		6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLaunchImageAdView.m; sourceTree = "<group>"; };
+		6E4F857E1E81388900471C32 /* SXPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPrefixHeader.pch; sourceTree = "<group>"; };
+		6E4F85801E81388900471C32 /* SXRootControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXRootControllerTool.h; sourceTree = "<group>"; };
+		6E4F85811E81388900471C32 /* SXRootControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRootControllerTool.m; sourceTree = "<group>"; };
 		6EEF80E31E81355900F127CB /* NetEaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEF80E71E81355900F127CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EEF80E91E81355900F127CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EEF80EA1E81355900F127CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EEF80EC1E81355900F127CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EEF80ED1E81355900F127CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6EEF80F01E81355900F127CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EEF80F21E81355900F127CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EEF80F51E81355900F127CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +75,180 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E4F85581E81388900471C32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85591E81388900471C32 /* Base */,
+				6E4F85691E81388900471C32 /* Config */,
+				6E4F85761E81388900471C32 /* Module */,
+				6E4F857D1E81388900471C32 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6E4F85591E81388900471C32 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F855A1E81388900471C32 /* BController */,
+				6E4F855D1E81388900471C32 /* BDataController */,
+				6E4F85601E81388900471C32 /* BModel */,
+				6E4F85631E81388900471C32 /* BView */,
+				6E4F85661E81388900471C32 /* BViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6E4F855A1E81388900471C32 /* BController */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F855B1E81388900471C32 /* BaseController.h */,
+				6E4F855C1E81388900471C32 /* BaseController.m */,
+			);
+			path = BController;
+			sourceTree = "<group>";
+		};
+		6E4F855D1E81388900471C32 /* BDataController */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F855E1E81388900471C32 /* BaseDataController.h */,
+				6E4F855F1E81388900471C32 /* BaseDataController.m */,
+			);
+			path = BDataController;
+			sourceTree = "<group>";
+		};
+		6E4F85601E81388900471C32 /* BModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85611E81388900471C32 /* BaseModel.h */,
+				6E4F85621E81388900471C32 /* BaseModel.m */,
+			);
+			path = BModel;
+			sourceTree = "<group>";
+		};
+		6E4F85631E81388900471C32 /* BView */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85641E81388900471C32 /* BaseView.h */,
+				6E4F85651E81388900471C32 /* BaseView.m */,
+			);
+			path = BView;
+			sourceTree = "<group>";
+		};
+		6E4F85661E81388900471C32 /* BViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85671E81388900471C32 /* BaseViewModel.h */,
+				6E4F85681E81388900471C32 /* BaseViewModel.m */,
+			);
+			path = BViewModel;
+			sourceTree = "<group>";
+		};
+		6E4F85691E81388900471C32 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F856A1E81388900471C32 /* CApiConst */,
+				6E4F856D1E81388900471C32 /* CAppConst */,
+				6E4F85701E81388900471C32 /* CDBConst */,
+				6E4F85731E81388900471C32 /* CUserConst */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6E4F856A1E81388900471C32 /* CApiConst */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F856B1E81388900471C32 /* SXApiConst.h */,
+				6E4F856C1E81388900471C32 /* SXApiConst.m */,
+			);
+			path = CApiConst;
+			sourceTree = "<group>";
+		};
+		6E4F856D1E81388900471C32 /* CAppConst */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F856E1E81388900471C32 /* SXAppConst.h */,
+				6E4F856F1E81388900471C32 /* SXAppConst.m */,
+			);
+			path = CAppConst;
+			sourceTree = "<group>";
+		};
+		6E4F85701E81388900471C32 /* CDBConst */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85711E81388900471C32 /* SXDBConst.h */,
+				6E4F85721E81388900471C32 /* SXDBConst.m */,
+			);
+			path = CDBConst;
+			sourceTree = "<group>";
+		};
+		6E4F85731E81388900471C32 /* CUserConst */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85741E81388900471C32 /* SXUserConst.h */,
+				6E4F85751E81388900471C32 /* SXUserConst.m */,
+			);
+			path = CUserConst;
+			sourceTree = "<group>";
+		};
+		6E4F85761E81388900471C32 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85771E81388900471C32 /* SXAdView */,
+				6E4F857A1E81388900471C32 /* SXGuide */,
+				6E4F857B1E81388900471C32 /* SXRootController */,
+				6E4F857C1E81388900471C32 /* SXTabBarController */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6E4F85771E81388900471C32 /* SXAdView */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85781E81388900471C32 /* SXLaunchImageAdView.h */,
+				6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */,
+			);
+			path = SXAdView;
+			sourceTree = "<group>";
+		};
+		6E4F857A1E81388900471C32 /* SXGuide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SXGuide;
+			sourceTree = "<group>";
+		};
+		6E4F857B1E81388900471C32 /* SXRootController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SXRootController;
+			sourceTree = "<group>";
+		};
+		6E4F857C1E81388900471C32 /* SXTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SXTabBarController;
+			sourceTree = "<group>";
+		};
+		6E4F857D1E81388900471C32 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F857E1E81388900471C32 /* SXPrefixHeader.pch */,
+				6E4F857F1E81388900471C32 /* SXRootControllerTool */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6E4F857F1E81388900471C32 /* SXRootControllerTool */ = {
+			isa = PBXGroup;
+			children = (
+				6E4F85801E81388900471C32 /* SXRootControllerTool.h */,
+				6E4F85811E81388900471C32 /* SXRootControllerTool.m */,
+			);
+			path = SXRootControllerTool;
+			sourceTree = "<group>";
+		};
 		6EEF80DA1E81355900F127CB = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +270,9 @@
 		6EEF80E51E81355900F127CB /* NetEaseMusic */ = {
 			isa = PBXGroup;
 			children = (
+				6E4F85581E81388900471C32 /* Classes */,
 				6EEF80E91E81355900F127CB /* AppDelegate.h */,
 				6EEF80EA1E81355900F127CB /* AppDelegate.m */,
-				6EEF80EC1E81355900F127CB /* ViewController.h */,
-				6EEF80ED1E81355900F127CB /* ViewController.m */,
 				6EEF80EF1E81355900F127CB /* Main.storyboard */,
 				6EEF80F21E81355900F127CB /* Assets.xcassets */,
 				6EEF80F41E81355900F127CB /* LaunchScreen.storyboard */,
@@ -226,9 +430,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EEF80EE1E81355900F127CB /* ViewController.m in Sources */,
+				6E4F85841E81388900471C32 /* BaseModel.m in Sources */,
+				6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */,
+				6E4F85861E81388900471C32 /* BaseViewModel.m in Sources */,
+				6E4F85851E81388900471C32 /* BaseView.m in Sources */,
 				6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */,
+				6E4F85831E81388900471C32 /* BaseDataController.m in Sources */,
+				6E4F85891E81388900471C32 /* SXDBConst.m in Sources */,
+				6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */,
+				6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */,
+				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
+				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
+				6E4F85871E81388900471C32 /* SXApiConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +562,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L4VNB87R6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseMusic/Classes/Others/SXPrefixHeader.pch";
 				INFOPLIST_FILE = NetEaseMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isunxu.NetEaseMusic;
@@ -361,6 +577,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L4VNB87R6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NetEaseMusic/Classes/Others/SXPrefixHeader.pch";
 				INFOPLIST_FILE = NetEaseMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isunxu.NetEaseMusic;
@@ -387,6 +605,7 @@
 				6EEF80FC1E81355900F127CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
