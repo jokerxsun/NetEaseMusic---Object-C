@@ -22,7 +22,8 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
-
+[core]
+    excludesfile = ~/.gitignore
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
