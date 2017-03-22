@@ -19,6 +19,7 @@
 		6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85751E81388900471C32 /* SXUserConst.m */; };
 		6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */; };
 		6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85811E81388900471C32 /* SXRootControllerTool.m */; };
+		6E861A7A1E822953005A165E /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */; };
 		6EEF80E81E81355900F127CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80E71E81355900F127CB /* main.m */; };
 		6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80EA1E81355900F127CB /* AppDelegate.m */; };
 		6EEF80F11E81355900F127CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80EF1E81355900F127CB /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		6E4F857E1E81388900471C32 /* SXPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPrefixHeader.pch; sourceTree = "<group>"; };
 		6E4F85801E81388900471C32 /* SXRootControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXRootControllerTool.h; sourceTree = "<group>"; };
 		6E4F85811E81388900471C32 /* SXRootControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRootControllerTool.m; sourceTree = "<group>"; };
+		6E861A781E822953005A165E /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
+		6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisCoveryMusixBoxController.m; sourceTree = "<group>"; };
 		6EEF80E31E81355900F127CB /* NetEaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEF80E71E81355900F127CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EEF80E91E81355900F127CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +196,7 @@
 		6E4F85761E81388900471C32 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				6E861A751E822893005A165E /* DiscoveryMusic */,
 				6E4F85771E81388900471C32 /* SXAdView */,
 				6E4F857A1E81388900471C32 /* SXGuide */,
 				6E4F857B1E81388900471C32 /* SXRootController */,
@@ -247,6 +251,31 @@
 				6E4F85811E81388900471C32 /* SXRootControllerTool.m */,
 			);
 			path = SXRootControllerTool;
+			sourceTree = "<group>";
+		};
+		6E861A751E822893005A165E /* DiscoveryMusic */ = {
+			isa = PBXGroup;
+			children = (
+				6E861A761E82290A005A165E /* Controller */,
+			);
+			path = DiscoveryMusic;
+			sourceTree = "<group>";
+		};
+		6E861A761E82290A005A165E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E861A771E82290A005A165E /* Box */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E861A771E82290A005A165E /* Box */ = {
+			isa = PBXGroup;
+			children = (
+				6E861A781E822953005A165E /* DisCoveryMusixBoxController.h */,
+				6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */,
+			);
+			path = Box;
 			sourceTree = "<group>";
 		};
 		6EEF80DA1E81355900F127CB = {
@@ -439,6 +468,7 @@
 				6E4F85891E81388900471C32 /* SXDBConst.m in Sources */,
 				6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */,
 				6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */,
+				6E861A7A1E822953005A165E /* DisCoveryMusixBoxController.m in Sources */,
 				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
 				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
