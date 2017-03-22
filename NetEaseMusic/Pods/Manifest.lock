@@ -23,9 +23,11 @@ PODS:
   - KSToastView (0.5.7)
   - Reachability (3.2)
   - SDAutoLayout (2.1.7)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SVProgressHUD (2.1.2)
   - YYCache (1.0.4)
   - YYModel (1.0.4)
@@ -39,7 +41,8 @@ DEPENDENCIES:
   - KSToastView (~> 0.5.7)
   - Reachability (~> 3.2)
   - SDAutoLayout (~> 2.1.7)
-  - SDWebImage (~> 4.0.0)
+  - SDCycleScrollView (~> 1.65)
+  - SDWebImage (~> 3.8.2)
   - SVProgressHUD (~> 2.1.2)
   - YYCache (~> 1.0.4)
   - YYModel (~> 1.0.4)
@@ -53,11 +56,12 @@ SPEC CHECKSUMS:
   KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 304e8297db7e4f19b7841305888cbe7bdfd2c485
+PODFILE CHECKSUM: eadf3d813dbbe5542bfedba5289e29978a7d8553
 
 COCOAPODS: 1.1.1
