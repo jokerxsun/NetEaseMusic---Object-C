@@ -29,6 +29,7 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - SVProgressHUD (2.1.2)
+  - WMPageController (2.2.1)
   - YYCache (1.0.4)
   - YYModel (1.0.4)
 
@@ -44,6 +45,7 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.2)
   - SVProgressHUD (~> 2.1.2)
+  - WMPageController
   - YYCache (~> 1.0.4)
   - YYModel (~> 1.0.4)
 
@@ -59,9 +61,10 @@ SPEC CHECKSUMS:
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: eadf3d813dbbe5542bfedba5289e29978a7d8553
+PODFILE CHECKSUM: 40d08c7911d97edd0cec10f8e3c66a308a9ad9c6
 
 COCOAPODS: 1.1.1

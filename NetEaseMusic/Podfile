@@ -12,4 +12,5 @@ pod 'SVProgressHUD', '~> 2.1.2'
 pod 'FDFullscreenPopGesture', '~> 1.1'
 pod 'FMDB', '~> 2.6.2'
 pod 'SDCycleScrollView', '~> 1.65'
+pod 'WMPageController'
 end
