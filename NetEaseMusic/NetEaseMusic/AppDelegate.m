@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SXRootControllerTool.h"
+#import "SXLaunchImageAdView.h"
 
 @interface AppDelegate ()
 
@@ -19,9 +21,67 @@
     
     // 启动图延迟
     [NSThread sleepForTimeInterval:1.5];
-    // Override point for customization after application launch.
+    
+    // 1. 友盟
+    
+    // 2. 推送
+    
+    // 3. 启动
+    [self makeWindowsVisible];
+    
+    // 4. 启动广告
+    // [self launchImageAdView];
+    
     return YES;
 }
+
+#pragma mark ---- 友盟数据统计
+
+#pragma mark ---- 消息推送
+
+#pragma mark ---- 启动应用
+- (void)makeWindowsVisible
+{
+    // windows
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [UIViewController new];
+    
+    // rootController
+    [SXRootControllerTool chooseTheAppLicationRootController];
+}
+
+#pragma mark ---- 启动页广告
+- (void)launchImageAdView
+{
+    // 加载启动页广告
+    /* FullScreenAdType 全屏广告
+     * LogoAdType 带logo的广告类似网易广告，值得注意的是启动图片必须带logo图
+     * ImgUrl  图片url
+     */
+    SXLaunchImageAdView * adView = [[SXLaunchImageAdView alloc]initWithWindow:self.window type:FullScreenAdType imgUrl:@"http://upload.chinaz.com/2015/0715/1436945569647.jpg"];
+    // 广告界面回调
+    adView.clickBlock = ^(NSInteger tag){
+        switch (tag) {
+            case 1100:{
+                SXLog(@"点击广告回调");
+            }
+                break;
+            case 1101:
+                SXLog(@"点击跳过回调");
+                break;
+            case 1102:
+                SXLog(@"倒计时完成后的回调");
+                break;
+            default:
+                break;
+        }
+    };
+}
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

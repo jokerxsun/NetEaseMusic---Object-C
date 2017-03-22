@@ -7,6 +7,7 @@
 //
 
 #import "SXRootControllerTool.h"
+#import "SXTabBarControllerConfig.h"
 
 @implementation SXRootControllerTool
 
@@ -14,6 +15,9 @@
 {
     // 比较版本号，版本号不同，设置 SXGuideController 为 rootController
     
-
+    UIApplication* application = [UIApplication sharedApplication];
+    UIWindow* window = application.keyWindow;
+    SXTabBarControllerConfig *tabBarControllerConhfig = [[SXTabBarControllerConfig alloc] init];
+    window.rootViewController = tabBarControllerConhfig.tabBarController;
 }
 @end
