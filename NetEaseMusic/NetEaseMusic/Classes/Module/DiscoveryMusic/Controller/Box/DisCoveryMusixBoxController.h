@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Sun Xu. All rights reserved.
 //
 
-#import <WMPageController/WMPageController.h>
+#import "BasePageController.h"
 
-@interface DisCoveryMusixBoxController : WMPageController
+@interface DisCoveryMusixBoxController : BasePageController
 
 @end

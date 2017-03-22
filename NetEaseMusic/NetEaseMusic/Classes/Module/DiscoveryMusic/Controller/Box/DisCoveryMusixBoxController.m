@@ -10,45 +10,10 @@
 
 @interface DisCoveryMusixBoxController ()
 
-@property (nonatomic, strong) NSArray *boxs;
-
 @end
 
 @implementation DisCoveryMusixBoxController
 
-- (instancetype)init
-{
-    if (self = [super init]) {
-        [self configStyle];
-    }
-    return self;
-}
-
-#pragma mark ---- config the Controller style
-- (void)configStyle
-{
-    [self setMenuHeight:33];
-    
-    [self setScrollEnable:NO];
-    
-    [self setMenuBGColor:[UIColor whiteColor]];
-    
-    [self setMenuItemWidth:80];
-    
-    [self setMenuViewStyle:WMMenuViewStyleDefault];
-    
-//    [self setProgressColor:RYBBASECOLOR];
-//    
-//    [self setTitleColorNormal:RYBHEXCOLOR(0x272727)];
-//    
-//    [self setTitleColorSelected:RYBBASECOLOR];
-    
-    [self setTitleSizeNormal:14];
-    
-    [self setTitleSizeSelected:14];
-
-
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

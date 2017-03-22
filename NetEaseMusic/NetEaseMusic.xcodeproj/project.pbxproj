@@ -19,12 +19,13 @@
 		6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85751E81388900471C32 /* SXUserConst.m */; };
 		6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */; };
 		6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85811E81388900471C32 /* SXRootControllerTool.m */; };
-		6E861A7A1E822953005A165E /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */; };
+		6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E95677C1E824FB100F5F3AE /* BasePageController.m */; };
+		6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */; };
+		6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */; };
 		6EEF80E81E81355900F127CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80E71E81355900F127CB /* main.m */; };
 		6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80EA1E81355900F127CB /* AppDelegate.m */; };
 		6EEF80F11E81355900F127CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80EF1E81355900F127CB /* Main.storyboard */; };
 		6EEF80F31E81355900F127CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80F21E81355900F127CB /* Assets.xcassets */; };
-		6EEF80F61E81355900F127CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80F41E81355900F127CB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,15 +54,17 @@
 		6E4F857E1E81388900471C32 /* SXPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPrefixHeader.pch; sourceTree = "<group>"; };
 		6E4F85801E81388900471C32 /* SXRootControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXRootControllerTool.h; sourceTree = "<group>"; };
 		6E4F85811E81388900471C32 /* SXRootControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRootControllerTool.m; sourceTree = "<group>"; };
-		6E861A781E822953005A165E /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
-		6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisCoveryMusixBoxController.m; sourceTree = "<group>"; };
+		6E95677B1E824FB100F5F3AE /* BasePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePageController.h; sourceTree = "<group>"; };
+		6E95677C1E824FB100F5F3AE /* BasePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageController.m; sourceTree = "<group>"; };
+		6E9567811E82501E00F5F3AE /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
+		6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisCoveryMusixBoxController.m; sourceTree = "<group>"; };
+		6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppLicationStoryboard.storyboard; sourceTree = "<group>"; };
 		6EEF80E31E81355900F127CB /* NetEaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEF80E71E81355900F127CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EEF80E91E81355900F127CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EEF80EA1E81355900F127CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6EEF80F01E81355900F127CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EEF80F21E81355900F127CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EEF80F51E81355900F127CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EEF80F71E81355900F127CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7190392D19E5BECEB2CAA604 /* Pods-NetEaseMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetEaseMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetEaseMusic/Pods-NetEaseMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +109,8 @@
 			children = (
 				6E4F855B1E81388900471C32 /* BaseController.h */,
 				6E4F855C1E81388900471C32 /* BaseController.m */,
+				6E95677B1E824FB100F5F3AE /* BasePageController.h */,
+				6E95677C1E824FB100F5F3AE /* BasePageController.m */,
 			);
 			path = BController;
 			sourceTree = "<group>";
@@ -196,7 +201,11 @@
 		6E4F85761E81388900471C32 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				6E9567841E8250FD00F5F3AE /* SXAppLicationStoryBoardView */,
 				6E861A751E822893005A165E /* DiscoveryMusic */,
+				6ED6C6C11E82685F00F7F263 /* MyMusic */,
+				6ED6C6C21E82686700F7F263 /* Friends */,
+				6ED6C6C31E82686E00F7F263 /* Account */,
 				6E4F85771E81388900471C32 /* SXAdView */,
 				6E4F857A1E81388900471C32 /* SXGuide */,
 				6E4F857B1E81388900471C32 /* SXRootController */,
@@ -272,10 +281,39 @@
 		6E861A771E82290A005A165E /* Box */ = {
 			isa = PBXGroup;
 			children = (
-				6E861A781E822953005A165E /* DisCoveryMusixBoxController.h */,
-				6E861A791E822953005A165E /* DisCoveryMusixBoxController.m */,
+				6E9567811E82501E00F5F3AE /* DisCoveryMusixBoxController.h */,
+				6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */,
 			);
 			path = Box;
+			sourceTree = "<group>";
+		};
+		6E9567841E8250FD00F5F3AE /* SXAppLicationStoryBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */,
+			);
+			path = SXAppLicationStoryBoardView;
+			sourceTree = "<group>";
+		};
+		6ED6C6C11E82685F00F7F263 /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		6ED6C6C21E82686700F7F263 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		6ED6C6C31E82686E00F7F263 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		6EEF80DA1E81355900F127CB = {
@@ -304,7 +342,6 @@
 				6EEF80EA1E81355900F127CB /* AppDelegate.m */,
 				6EEF80EF1E81355900F127CB /* Main.storyboard */,
 				6EEF80F21E81355900F127CB /* Assets.xcassets */,
-				6EEF80F41E81355900F127CB /* LaunchScreen.storyboard */,
 				6EEF80F71E81355900F127CB /* Info.plist */,
 				6EEF80E61E81355900F127CB /* Supporting Files */,
 			);
@@ -398,7 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EEF80F61E81355900F127CB /* LaunchScreen.storyboard in Resources */,
+				6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */,
 				6EEF80F31E81355900F127CB /* Assets.xcassets in Resources */,
 				6EEF80F11E81355900F127CB /* Main.storyboard in Resources */,
 			);
@@ -468,9 +505,10 @@
 				6E4F85891E81388900471C32 /* SXDBConst.m in Sources */,
 				6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */,
 				6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */,
-				6E861A7A1E822953005A165E /* DisCoveryMusixBoxController.m in Sources */,
+				6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */,
 				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
 				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
+				6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
 				6E4F85871E81388900471C32 /* SXApiConst.m in Sources */,
 			);
@@ -485,14 +523,6 @@
 				6EEF80F01E81355900F127CB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6EEF80F41E81355900F127CB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EEF80F51E81355900F127CB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
