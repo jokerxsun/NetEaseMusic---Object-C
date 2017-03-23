@@ -1,21 +1,24 @@
 //
-//  MusicTableController.m
+//  MusicContentController.m
 //  NetEaseMusic
 //
-//  Created by sunxu on 2017/3/22.
+//  Created by sunxu on 2017/3/23.
 //  Copyright © 2017年 Sun Xu. All rights reserved.
 //
 
-#import "MusicTableController.h"
+#import "MusicContentController.h"
 
-@interface MusicTableController ()
+@interface MusicContentController ()
 
 @end
 
-@implementation MusicTableController
+@implementation MusicContentController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    self.automaticallyAdjustsScrollViewInsets = YES;
+   // self.tableView.tableFooterView = [UIView new];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -33,12 +36,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return 3;
 }
 
 /*

@@ -7,8 +7,8 @@
 //
 
 #import "SXTabBarControllerConfig.h"
-#import "DiscoveryController.h"
-#import "MusicTableController.h"
+#import "DisCoveryMusixBoxController.h"
+#import "MusicController.h"
 #import "FriendController.h"
 #import "AccountTableController.h"
 
@@ -40,10 +40,10 @@
 }
 
 - (NSArray *)viewControllers {
-    DiscoveryController *discovery = [[DiscoveryController alloc] init];
+    DisCoveryMusixBoxController *discovery = [[DisCoveryMusixBoxController alloc] init];
     UINavigationController *discoveryNav = [[UINavigationController alloc] initWithRootViewController:discovery];
     
-    MusicTableController *music = [[MusicTableController alloc] init];
+    MusicController *music = [[MusicController alloc] init];
     UINavigationController *musicNav = [[UINavigationController alloc] initWithRootViewController:music];
     
     FriendController *friend = [[FriendController alloc] init];

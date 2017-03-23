@@ -7,8 +7,11 @@
 //
 
 #define SXPrefixHeader_pch
-
 #ifdef __OBJC__
+
+#import "UIViewController+SX.h"
+
+
 // 控制台日志输出
 #ifdef DEBUG
 // debug 模式下输出
@@ -25,7 +28,7 @@
 #define SXRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
 #define SXHEXCOLOR(hexValue) [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0f]
-#define SXBASECOLOR SXHEXCOLOR(0x4da85c)
+#define SXBASECOLOR SXHEXCOLOR(0xCC342B)
 
 // 60ac73
 #define SXBASECOLORA(a) SXRGBA(77,165,92,a)

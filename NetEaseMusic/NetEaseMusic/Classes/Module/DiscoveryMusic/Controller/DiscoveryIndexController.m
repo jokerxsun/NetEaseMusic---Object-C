@@ -1,18 +1,19 @@
 //
-//  DiscoveryController.m
+//  DiscoveryIndexController.m
 //  NetEaseMusic
 //
 //  Created by sunxu on 2017/3/22.
 //  Copyright © 2017年 Sun Xu. All rights reserved.
 //
 
-#import "DiscoveryController.h"
+#import "DiscoveryIndexController.h"
 
-@interface DiscoveryController ()
+
+@interface DiscoveryIndexController ()
 
 @end
 
-@implementation DiscoveryController
+@implementation DiscoveryIndexController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

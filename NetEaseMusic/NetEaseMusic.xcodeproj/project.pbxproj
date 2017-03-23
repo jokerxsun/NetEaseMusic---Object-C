@@ -22,12 +22,15 @@
 		6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E95677C1E824FB100F5F3AE /* BasePageController.m */; };
 		6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */; };
 		6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */; };
-		6ED6C6C71E826A2000F7F263 /* MusicTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6C61E826A2000F7F263 /* MusicTableController.m */; };
+		6E9F4C551E83672F00C6C900 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C541E83672F00C6C900 /* MusicController.m */; };
+		6E9F4C581E83694500C6C900 /* MusicContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C571E83694500C6C900 /* MusicContentController.m */; };
 		6ED6C6CB1E826A8500F7F263 /* FriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6CA1E826A8500F7F263 /* FriendController.m */; };
 		6ED6C6CF1E826ACA00F7F263 /* AccountTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6CE1E826ACA00F7F263 /* AccountTableController.m */; };
 		6ED6C6D31E826DDF00F7F263 /* SXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6D21E826DDF00F7F263 /* SXTabBarController.m */; };
-		6ED6C6DC1E82703500F7F263 /* DiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6DB1E82703500F7F263 /* DiscoveryController.m */; };
 		6ED6C6E01E82773900F7F263 /* SXTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6DF1E82773900F7F263 /* SXTabBarControllerConfig.m */; };
+		6ED6C6E41E8281B600F7F263 /* DiscoveryCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6E31E8281B600F7F263 /* DiscoveryCollectionController.m */; };
+		6ED6C6E71E82877600F7F263 /* DiscoveryIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6E61E82877600F7F263 /* DiscoveryIndexController.m */; };
+		6EEAC6A61E82BFD600AE9804 /* UIViewController+SX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEAC6A51E82BFD600AE9804 /* UIViewController+SX.m */; };
 		6EEF80E81E81355900F127CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80E71E81355900F127CB /* main.m */; };
 		6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF80EA1E81355900F127CB /* AppDelegate.m */; };
 		6EEF80F11E81355900F127CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEF80EF1E81355900F127CB /* Main.storyboard */; };
@@ -65,18 +68,24 @@
 		6E9567811E82501E00F5F3AE /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
 		6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisCoveryMusixBoxController.m; sourceTree = "<group>"; };
 		6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppLicationStoryboard.storyboard; sourceTree = "<group>"; };
-		6ED6C6C51E826A2000F7F263 /* MusicTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableController.h; sourceTree = "<group>"; };
-		6ED6C6C61E826A2000F7F263 /* MusicTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableController.m; sourceTree = "<group>"; };
+		6E9F4C531E83672F00C6C900 /* MusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicController.h; sourceTree = "<group>"; };
+		6E9F4C541E83672F00C6C900 /* MusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicController.m; sourceTree = "<group>"; };
+		6E9F4C561E83694500C6C900 /* MusicContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicContentController.h; sourceTree = "<group>"; };
+		6E9F4C571E83694500C6C900 /* MusicContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicContentController.m; sourceTree = "<group>"; };
 		6ED6C6C91E826A8500F7F263 /* FriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendController.h; sourceTree = "<group>"; };
 		6ED6C6CA1E826A8500F7F263 /* FriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendController.m; sourceTree = "<group>"; };
 		6ED6C6CD1E826ACA00F7F263 /* AccountTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableController.h; sourceTree = "<group>"; };
 		6ED6C6CE1E826ACA00F7F263 /* AccountTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableController.m; sourceTree = "<group>"; };
 		6ED6C6D11E826DDF00F7F263 /* SXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarController.h; sourceTree = "<group>"; };
 		6ED6C6D21E826DDF00F7F263 /* SXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTabBarController.m; sourceTree = "<group>"; };
-		6ED6C6DA1E82703500F7F263 /* DiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryController.h; sourceTree = "<group>"; };
-		6ED6C6DB1E82703500F7F263 /* DiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryController.m; sourceTree = "<group>"; };
 		6ED6C6DE1E82773900F7F263 /* SXTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarControllerConfig.h; sourceTree = "<group>"; };
 		6ED6C6DF1E82773900F7F263 /* SXTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTabBarControllerConfig.m; sourceTree = "<group>"; };
+		6ED6C6E21E8281B600F7F263 /* DiscoveryCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryCollectionController.h; sourceTree = "<group>"; };
+		6ED6C6E31E8281B600F7F263 /* DiscoveryCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryCollectionController.m; sourceTree = "<group>"; };
+		6ED6C6E51E82877600F7F263 /* DiscoveryIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryIndexController.h; sourceTree = "<group>"; };
+		6ED6C6E61E82877600F7F263 /* DiscoveryIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryIndexController.m; sourceTree = "<group>"; };
+		6EEAC6A41E82BFD600AE9804 /* UIViewController+SX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SX.h"; sourceTree = "<group>"; };
+		6EEAC6A51E82BFD600AE9804 /* UIViewController+SX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SX.m"; sourceTree = "<group>"; };
 		6EEF80E31E81355900F127CB /* NetEaseMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEF80E71E81355900F127CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EEF80E91E81355900F127CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +114,7 @@
 				6E4F85591E81388900471C32 /* Base */,
 				6E4F85691E81388900471C32 /* Config */,
 				6E4F85761E81388900471C32 /* Module */,
+				6EEAC69E1E82BE5000AE9804 /* Tool */,
 				6E4F857D1E81388900471C32 /* Others */,
 			);
 			path = Classes;
@@ -295,8 +305,9 @@
 			isa = PBXGroup;
 			children = (
 				6E861A771E82290A005A165E /* Box */,
-				6ED6C6DA1E82703500F7F263 /* DiscoveryController.h */,
-				6ED6C6DB1E82703500F7F263 /* DiscoveryController.m */,
+				6ED6C6E11E82819300F7F263 /* List */,
+				6ED6C6E51E82877600F7F263 /* DiscoveryIndexController.h */,
+				6ED6C6E61E82877600F7F263 /* DiscoveryIndexController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -345,8 +356,10 @@
 		6ED6C6C41E826A0200F7F263 /* MusicController */ = {
 			isa = PBXGroup;
 			children = (
-				6ED6C6C51E826A2000F7F263 /* MusicTableController.h */,
-				6ED6C6C61E826A2000F7F263 /* MusicTableController.m */,
+				6E9F4C531E83672F00C6C900 /* MusicController.h */,
+				6E9F4C541E83672F00C6C900 /* MusicController.m */,
+				6E9F4C561E83694500C6C900 /* MusicContentController.h */,
+				6E9F4C571E83694500C6C900 /* MusicContentController.m */,
 			);
 			path = MusicController;
 			sourceTree = "<group>";
@@ -376,6 +389,40 @@
 				6ED6C6DF1E82773900F7F263 /* SXTabBarControllerConfig.m */,
 			);
 			path = SXTabBarControllerConfig;
+			sourceTree = "<group>";
+		};
+		6ED6C6E11E82819300F7F263 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				6ED6C6E21E8281B600F7F263 /* DiscoveryCollectionController.h */,
+				6ED6C6E31E8281B600F7F263 /* DiscoveryCollectionController.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6EEAC69E1E82BE5000AE9804 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6EEAC69F1E82BE5000AE9804 /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6EEAC69F1E82BE5000AE9804 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6EEAC6A01E82BE9400AE9804 /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6EEAC6A01E82BE9400AE9804 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EEAC6A41E82BFD600AE9804 /* UIViewController+SX.h */,
+				6EEAC6A51E82BFD600AE9804 /* UIViewController+SX.m */,
+			);
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		6EEF80DA1E81355900F127CB = {
@@ -561,23 +608,26 @@
 				6E4F85841E81388900471C32 /* BaseModel.m in Sources */,
 				6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */,
 				6E4F85861E81388900471C32 /* BaseViewModel.m in Sources */,
+				6E9F4C581E83694500C6C900 /* MusicContentController.m in Sources */,
 				6E4F85851E81388900471C32 /* BaseView.m in Sources */,
 				6ED6C6CB1E826A8500F7F263 /* FriendController.m in Sources */,
 				6EEF80EB1E81355900F127CB /* AppDelegate.m in Sources */,
 				6ED6C6D31E826DDF00F7F263 /* SXTabBarController.m in Sources */,
 				6E4F85831E81388900471C32 /* BaseDataController.m in Sources */,
 				6E4F85891E81388900471C32 /* SXDBConst.m in Sources */,
+				6ED6C6E71E82877600F7F263 /* DiscoveryIndexController.m in Sources */,
+				6EEAC6A61E82BFD600AE9804 /* UIViewController+SX.m in Sources */,
 				6ED6C6CF1E826ACA00F7F263 /* AccountTableController.m in Sources */,
 				6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */,
 				6ED6C6E01E82773900F7F263 /* SXTabBarControllerConfig.m in Sources */,
+				6E9F4C551E83672F00C6C900 /* MusicController.m in Sources */,
 				6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */,
-				6ED6C6DC1E82703500F7F263 /* DiscoveryController.m in Sources */,
 				6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */,
 				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
 				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
 				6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
-				6ED6C6C71E826A2000F7F263 /* MusicTableController.m in Sources */,
+				6ED6C6E41E8281B600F7F263 /* DiscoveryCollectionController.m in Sources */,
 				6E4F85871E81388900471C32 /* SXApiConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
