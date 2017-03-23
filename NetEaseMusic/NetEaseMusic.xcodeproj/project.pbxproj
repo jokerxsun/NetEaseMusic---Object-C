@@ -19,13 +19,13 @@
 		6E4F858A1E81388900471C32 /* SXUserConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85751E81388900471C32 /* SXUserConst.m */; };
 		6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */; };
 		6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85811E81388900471C32 /* SXRootControllerTool.m */; };
+		6E56A4811E83BCDF004CA200 /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E56A4801E83BCDF004CA200 /* AccountController.m */; };
 		6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E95677C1E824FB100F5F3AE /* BasePageController.m */; };
 		6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */; };
 		6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */; };
 		6E9F4C551E83672F00C6C900 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C541E83672F00C6C900 /* MusicController.m */; };
 		6E9F4C581E83694500C6C900 /* MusicContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C571E83694500C6C900 /* MusicContentController.m */; };
 		6ED6C6CB1E826A8500F7F263 /* FriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6CA1E826A8500F7F263 /* FriendController.m */; };
-		6ED6C6CF1E826ACA00F7F263 /* AccountTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6CE1E826ACA00F7F263 /* AccountTableController.m */; };
 		6ED6C6D31E826DDF00F7F263 /* SXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6D21E826DDF00F7F263 /* SXTabBarController.m */; };
 		6ED6C6E01E82773900F7F263 /* SXTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6DF1E82773900F7F263 /* SXTabBarControllerConfig.m */; };
 		6ED6C6E41E8281B600F7F263 /* DiscoveryCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6E31E8281B600F7F263 /* DiscoveryCollectionController.m */; };
@@ -63,6 +63,8 @@
 		6E4F857E1E81388900471C32 /* SXPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPrefixHeader.pch; sourceTree = "<group>"; };
 		6E4F85801E81388900471C32 /* SXRootControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXRootControllerTool.h; sourceTree = "<group>"; };
 		6E4F85811E81388900471C32 /* SXRootControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRootControllerTool.m; sourceTree = "<group>"; };
+		6E56A47F1E83BCDF004CA200 /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
+		6E56A4801E83BCDF004CA200 /* AccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountController.m; sourceTree = "<group>"; };
 		6E95677B1E824FB100F5F3AE /* BasePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePageController.h; sourceTree = "<group>"; };
 		6E95677C1E824FB100F5F3AE /* BasePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageController.m; sourceTree = "<group>"; };
 		6E9567811E82501E00F5F3AE /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
@@ -74,8 +76,6 @@
 		6E9F4C571E83694500C6C900 /* MusicContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicContentController.m; sourceTree = "<group>"; };
 		6ED6C6C91E826A8500F7F263 /* FriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendController.h; sourceTree = "<group>"; };
 		6ED6C6CA1E826A8500F7F263 /* FriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendController.m; sourceTree = "<group>"; };
-		6ED6C6CD1E826ACA00F7F263 /* AccountTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableController.h; sourceTree = "<group>"; };
-		6ED6C6CE1E826ACA00F7F263 /* AccountTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableController.m; sourceTree = "<group>"; };
 		6ED6C6D11E826DDF00F7F263 /* SXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarController.h; sourceTree = "<group>"; };
 		6ED6C6D21E826DDF00F7F263 /* SXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTabBarController.m; sourceTree = "<group>"; };
 		6ED6C6DE1E82773900F7F263 /* SXTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -111,9 +111,9 @@
 		6E4F85581E81388900471C32 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6E4F85761E81388900471C32 /* Module */,
 				6E4F85591E81388900471C32 /* Base */,
 				6E4F85691E81388900471C32 /* Config */,
-				6E4F85761E81388900471C32 /* Module */,
 				6EEAC69E1E82BE5000AE9804 /* Tool */,
 				6E4F857D1E81388900471C32 /* Others */,
 			);
@@ -376,8 +376,8 @@
 		6ED6C6CC1E826AA500F7F263 /* AccountController */ = {
 			isa = PBXGroup;
 			children = (
-				6ED6C6CD1E826ACA00F7F263 /* AccountTableController.h */,
-				6ED6C6CE1E826ACA00F7F263 /* AccountTableController.m */,
+				6E56A47F1E83BCDF004CA200 /* AccountController.h */,
+				6E56A4801E83BCDF004CA200 /* AccountController.m */,
 			);
 			path = AccountController;
 			sourceTree = "<group>";
@@ -617,7 +617,6 @@
 				6E4F85891E81388900471C32 /* SXDBConst.m in Sources */,
 				6ED6C6E71E82877600F7F263 /* DiscoveryIndexController.m in Sources */,
 				6EEAC6A61E82BFD600AE9804 /* UIViewController+SX.m in Sources */,
-				6ED6C6CF1E826ACA00F7F263 /* AccountTableController.m in Sources */,
 				6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */,
 				6ED6C6E01E82773900F7F263 /* SXTabBarControllerConfig.m in Sources */,
 				6E9F4C551E83672F00C6C900 /* MusicController.m in Sources */,
@@ -625,6 +624,7 @@
 				6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */,
 				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
 				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
+				6E56A4811E83BCDF004CA200 /* AccountController.m in Sources */,
 				6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
 				6ED6C6E41E8281B600F7F263 /* DiscoveryCollectionController.m in Sources */,

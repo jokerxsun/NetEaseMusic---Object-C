@@ -10,7 +10,7 @@
 #import "DisCoveryMusixBoxController.h"
 #import "MusicController.h"
 #import "FriendController.h"
-#import "AccountTableController.h"
+#import "AccountController.h"
 
 @interface SXTabBarControllerConfig ()
 
@@ -49,7 +49,7 @@
     FriendController *friend = [[FriendController alloc] init];
     UINavigationController *friendNav = [[UINavigationController alloc] initWithRootViewController:friend];
     
-    AccountTableController *account = [[AccountTableController alloc] init];
+    AccountController *account = [[AccountController alloc] init];
     UINavigationController *accountNav = [[UINavigationController alloc] initWithRootViewController:account];
     
     NSArray *viewControllers = @[
