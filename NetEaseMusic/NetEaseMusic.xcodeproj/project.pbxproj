@@ -20,11 +20,14 @@
 		6E4F858B1E81388900471C32 /* SXLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85791E81388900471C32 /* SXLaunchImageAdView.m */; };
 		6E4F858C1E81388900471C32 /* SXRootControllerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F85811E81388900471C32 /* SXRootControllerTool.m */; };
 		6E56A4811E83BCDF004CA200 /* AccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E56A4801E83BCDF004CA200 /* AccountController.m */; };
+		6E56A4861E83C1F6004CA200 /* MusicSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E56A4851E83C1F6004CA200 /* MusicSectionHeader.m */; };
+		6E56A4881E83C216004CA200 /* MusicSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E56A4871E83C216004CA200 /* MusicSectionHeader.xib */; };
 		6E95677D1E824FB100F5F3AE /* BasePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E95677C1E824FB100F5F3AE /* BasePageController.m */; };
 		6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9567821E82501E00F5F3AE /* DisCoveryMusixBoxController.m */; };
 		6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9567851E82512700F5F3AE /* AppLicationStoryboard.storyboard */; };
 		6E9F4C551E83672F00C6C900 /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C541E83672F00C6C900 /* MusicController.m */; };
 		6E9F4C581E83694500C6C900 /* MusicContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C571E83694500C6C900 /* MusicContentController.m */; };
+		6EA0C2091E84ED950050FF19 /* MusicChanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0C2081E84ED950050FF19 /* MusicChanelCell.m */; };
 		6ED6C6CB1E826A8500F7F263 /* FriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6CA1E826A8500F7F263 /* FriendController.m */; };
 		6ED6C6D31E826DDF00F7F263 /* SXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6D21E826DDF00F7F263 /* SXTabBarController.m */; };
 		6ED6C6E01E82773900F7F263 /* SXTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6C6DF1E82773900F7F263 /* SXTabBarControllerConfig.m */; };
@@ -65,6 +68,9 @@
 		6E4F85811E81388900471C32 /* SXRootControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXRootControllerTool.m; sourceTree = "<group>"; };
 		6E56A47F1E83BCDF004CA200 /* AccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountController.h; sourceTree = "<group>"; };
 		6E56A4801E83BCDF004CA200 /* AccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountController.m; sourceTree = "<group>"; };
+		6E56A4841E83C1F6004CA200 /* MusicSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSectionHeader.h; sourceTree = "<group>"; };
+		6E56A4851E83C1F6004CA200 /* MusicSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSectionHeader.m; sourceTree = "<group>"; };
+		6E56A4871E83C216004CA200 /* MusicSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicSectionHeader.xib; sourceTree = "<group>"; };
 		6E95677B1E824FB100F5F3AE /* BasePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePageController.h; sourceTree = "<group>"; };
 		6E95677C1E824FB100F5F3AE /* BasePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageController.m; sourceTree = "<group>"; };
 		6E9567811E82501E00F5F3AE /* DisCoveryMusixBoxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisCoveryMusixBoxController.h; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 		6E9F4C541E83672F00C6C900 /* MusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicController.m; sourceTree = "<group>"; };
 		6E9F4C561E83694500C6C900 /* MusicContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicContentController.h; sourceTree = "<group>"; };
 		6E9F4C571E83694500C6C900 /* MusicContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicContentController.m; sourceTree = "<group>"; };
+		6EA0C2071E84ED950050FF19 /* MusicChanelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicChanelCell.h; sourceTree = "<group>"; };
+		6EA0C2081E84ED950050FF19 /* MusicChanelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicChanelCell.m; sourceTree = "<group>"; };
 		6ED6C6C91E826A8500F7F263 /* FriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendController.h; sourceTree = "<group>"; };
 		6ED6C6CA1E826A8500F7F263 /* FriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendController.m; sourceTree = "<group>"; };
 		6ED6C6D11E826DDF00F7F263 /* SXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTabBarController.h; sourceTree = "<group>"; };
@@ -293,6 +301,26 @@
 			path = SXRootControllerTool;
 			sourceTree = "<group>";
 		};
+		6E56A4821E83C1B5004CA200 /* MusicView */ = {
+			isa = PBXGroup;
+			children = (
+				6E56A4831E83C1D2004CA200 /* SectionHeader */,
+				6EA0C2071E84ED950050FF19 /* MusicChanelCell.h */,
+				6EA0C2081E84ED950050FF19 /* MusicChanelCell.m */,
+			);
+			path = MusicView;
+			sourceTree = "<group>";
+		};
+		6E56A4831E83C1D2004CA200 /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6E56A4841E83C1F6004CA200 /* MusicSectionHeader.h */,
+				6E56A4851E83C1F6004CA200 /* MusicSectionHeader.m */,
+				6E56A4871E83C216004CA200 /* MusicSectionHeader.xib */,
+			);
+			path = SectionHeader;
+			sourceTree = "<group>";
+		};
 		6E861A751E822893005A165E /* DiscoveryMusic */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +360,7 @@
 		6ED6C6C11E82685F00F7F263 /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				6E56A4821E83C1B5004CA200 /* MusicView */,
 				6ED6C6C41E826A0200F7F263 /* MusicController */,
 			);
 			path = MyMusic;
@@ -546,6 +575,7 @@
 			files = (
 				6E9567861E82512700F5F3AE /* AppLicationStoryboard.storyboard in Resources */,
 				6EEF80F31E81355900F127CB /* Assets.xcassets in Resources */,
+				6E56A4881E83C216004CA200 /* MusicSectionHeader.xib in Resources */,
 				6EEF80F11E81355900F127CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,10 +655,12 @@
 				6E4F85881E81388900471C32 /* SXAppConst.m in Sources */,
 				6E4F85821E81388900471C32 /* BaseController.m in Sources */,
 				6E56A4811E83BCDF004CA200 /* AccountController.m in Sources */,
+				6EA0C2091E84ED950050FF19 /* MusicChanelCell.m in Sources */,
 				6E9567831E82501E00F5F3AE /* DisCoveryMusixBoxController.m in Sources */,
 				6EEF80E81E81355900F127CB /* main.m in Sources */,
 				6ED6C6E41E8281B600F7F263 /* DiscoveryCollectionController.m in Sources */,
 				6E4F85871E81388900471C32 /* SXApiConst.m in Sources */,
+				6E56A4861E83C1F6004CA200 /* MusicSectionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

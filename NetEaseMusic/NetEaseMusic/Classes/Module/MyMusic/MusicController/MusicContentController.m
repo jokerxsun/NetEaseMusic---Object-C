@@ -7,6 +7,8 @@
 //
 
 #import "MusicContentController.h"
+#import "MusicSectionHeader.h"
+#import "MusicChanelCell.h"
 
 @interface MusicContentController ()
 
@@ -17,42 +19,65 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.automaticallyAdjustsScrollViewInsets = YES;
-   // self.tableView.tableFooterView = [UIView new];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self configTableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)configTableView
+{
+    [self.tableView setSeparatorColor:SXHEXCOLOR(0xefeff4)];
+    
+    self.tableView.sectionHeaderHeight = 20;
+    
+    self.tableView.rowHeight = 60;
+    
+    self.tableView.backgroundColor = SXHEXCOLOR(0xefeff4);
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([MusicSectionHeader class]) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass([MusicSectionHeader class])];
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 3;
+    if (section == 0) {
+        return 3;
+    }
+    return 10;
 }
 
-/*
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return 0;
+    }
+    
+    return 20;
+}
+
+#pragma mark ---- delegate
+
+- (UIView*)tableView:(UITableView*)tableView viewForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return nil;
+    }
+   MusicSectionHeader *header = [tableView dequeueReusableHeaderFooterViewWithIdentifier:NSStringFromClass([MusicSectionHeader class])];
+    header.section = section;
+    return header;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    MusicChanelCell* cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([MusicChanelCell class])];
     return cell;
 }
-*/
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
 
 /*
 // Override to support conditional editing of the table view.
